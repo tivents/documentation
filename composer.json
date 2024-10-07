@@ -39,7 +39,8 @@
         "socialiteproviders/okta": "^4.2",
         "socialiteproviders/twitch": "^5.3",
         "ssddanbrown/htmldiff": "^1.0.2",
-        "ssddanbrown/symfony-mailer": "6.0.x-dev"
+        "ssddanbrown/symfony-mailer": "6.0.x-dev",
+        "statikbe/laravel-cookie-consent": "^1.7"
     },
     "require-dev": {
         "fakerphp/faker": "^1.21",
