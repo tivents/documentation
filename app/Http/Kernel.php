@@ -16,6 +16,7 @@ class Kernel extends HttpKernel
         \BookStack\Http\Middleware\TrimStrings::class,
         \BookStack\Http\Middleware\TrustProxies::class,
         \BookStack\Http\Middleware\PreventResponseCaching::class,
+        \Statikbe\CookieConsent\CookieConsentMiddleware::class,
     ];
 
     /**
