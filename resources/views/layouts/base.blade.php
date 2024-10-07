@@ -19,7 +19,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ versioned_asset('dist/styles.css') }}">
-
+    <link rel="stylesheet" type="text/css" href="{{asset("vendor/cookie-consent/css/cookie-consent.css")}}">
     <!-- Icons -->
     <link rel="icon" type="image/png" sizes="256x256" href="{{ setting('app-icon') ?: url('/icon.png') }}">
     <link rel="icon" type="image/png" sizes="180x180" href="{{ setting('app-icon-180') ?: url('/icon-180.png') }}">
